@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+
+  <body>
+  <h1>LE JEU DE LA VIE</h1>
+  <div class="formContainer">
+      <label for="gameSize">Taille de la grille</label>
+      <input type="number" min="7" max="50" id="gameSize" name="gameSize" value="10">
+  </div>
+
+    <main id="game">
+      <nav>
+        <button type="button" id="start">Start</button>
+        <button type="button" id="stop">Stop</button>
+        <button type="reset" id="reset">Reset</button>
+      </nav>
+    </main>
+
+    <footer>&copy; Réalisé par <a href="https://github.com/remi-martinez">Rémi Martinez</a> et <a href="https://github.com/bapttiste73">Baptiste Aubert</a></footer>
+    <script type="module" src="src/game.js"></script>
+  </body>
+</html>
